@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🧾 SoftSell
+SoftSell is a modern, responsive, single-page marketing website for a fictional software resale startup. The site is built with Next.js and includes smooth UI interactions, dark/light theme toggling, and a contact form with frontend validation.
 
-## Getting Started
+✨ Features Implemented
+✅ Responsive Design — TailwindCSS used to ensure seamless experience across all screen sizes.
 
-First, run the development server:
+✅ Theme Toggle — Light/Dark mode support using a ThemeProvider and ModeToggle component.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✅ Hero Section — Eye-catching headline, CTA buttons, and background image support.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✅ How It Works Section — Hover animated cards that explain the working of the product.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ Why Choose Us Section — Key benefits and selling points laid out in simple language.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ Testimonials — Auto-scrolling carousel of real/fake customer feedback.
 
-## Learn More
+✅ Contact Us Form
 
-To learn more about Next.js, take a look at the following resources:
+Includes fields: Name, Email, Company, License Type, Message.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Validates fields before submission using sonner toast notifications.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ SEO Optimization
 
-## Deploy on Vercel
+Set up metadata in RootLayout.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Page-level SEO using the metadata export in page.tsx.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✅ Glassmorphism & Gradients — Stylish UI using backdrop blur and gradients for modern aesthetics.
+
+🧠 Design Choices
+
+🔧 Tech Stack
+Next.js (App Router) — File-based routing and modern SSR support.
+
+TypeScript — Ensures type safety across components.
+
+Tailwind CSS — Utility-first styling with responsive design utilities.
+
+ShadCN/UI, Aceternity UI — Reusable components.
+
+Sonner — Lightweight toast notifications for form feedback.
+
+⏱ Time Spent - 8 hours (approx.)
