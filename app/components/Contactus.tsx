@@ -18,16 +18,16 @@ export function ContactUs() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Basic validation: check if all fields are filled
+  
     if (!name || !email || !company || !license) {
       toast.error("Please fill all the fields.");
       return;
     }
 
-    // Show success toast after form submission
+
     toast.success("Thanks for reaching out! We will get back to you soon.");
 
-    // Reset form fields after submission
+
     setName("");
     setEmail("");
     setCompany("");

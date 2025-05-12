@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { X } from "lucide-react"; // optional, or use text for close
+import { X } from "lucide-react"; 
 
 export function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ setMessages((prev) => [...prev, `AI: ${aiReply}`]);
 
   return (
     <>
-      {/* Floating Button */}
+
       <div className="fixed bottom-5 right-5 z-50">
         <button
           className="bg-blue-900/90 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg"
@@ -32,7 +32,6 @@ setMessages((prev) => [...prev, `AI: ${aiReply}`]);
         </button>
       </div>
 
-      {/* Popup Chat Box */}
       {isOpen && (
         <div className="fixed bottom-20 right-5 w-80 bg-white border rounded-xl shadow-lg z-50 flex flex-col">
           <div className="flex justify-between items-center p-3 border-b font-semibold">

@@ -12,7 +12,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ reply: "Please provide a message." });
   }
 
-  // Hardcoded FAQ-style responses
   const faqs: Record<string, string> = {
   "sell": "To sell your license, go to your account dashboard and click on the 'Sell License' tab. Fill in the license details, pricing, and submit your listing. Our team will review and verify before making it public.",
   "sell license": "To sell your license, go to your account dashboard and click on the 'Sell License' tab. Fill in the license details, pricing, and submit your listing. Our team will review and verify before making it public.",
@@ -26,14 +25,13 @@ export async function POST(req: NextRequest) {
 
   const lowerMsg = message.toLowerCase().trim();
 
-  // Check if any key matches partially
+
   const matchedKey = Object.keys(faqs).find((key) => lowerMsg.includes(key));
 
   if (matchedKey) {
     return NextResponse.json({ reply: faqs[matchedKey] });
   }
 
-  // If no match, use OpenAI
   try {
     const aiResponse = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
