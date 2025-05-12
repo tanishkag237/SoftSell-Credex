@@ -1,10 +1,10 @@
 "use client"
 
 import { toast } from "sonner";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Button } from "@/app/components/ui/button";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/app/components/ui/card";
+import { Label } from "@/app/components/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/app/components/ui/select";
 import { Input } from "./ui/input";
 import { useState } from "react";
 import { Cover } from "./ui/cover";

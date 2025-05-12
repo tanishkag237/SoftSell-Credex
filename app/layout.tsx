@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "../components/ui/theme/ThemeSwitcher";
-import { ModeToggle } from "../components/ui/theme/ModeToggle";
+import { ThemeProvider } from "./components/ui/theme/ThemeSwitcher";
+import { ModeToggle } from "./components/ui/theme/ModeToggle";
 import { Toaster } from "sonner";
 
 

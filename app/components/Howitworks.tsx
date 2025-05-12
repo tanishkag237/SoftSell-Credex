@@ -1,8 +1,9 @@
 "use client";
 
 import { ChartNoAxesCombined, DollarSign, FileUp, HandCoins } from "lucide-react";
-import { HoverEffect } from "./ui/card-hover-effect";
+
 import { Cover } from "./ui/cover";
+import { HoverEffect } from "./ui/card-hover-effect";
 
 export function Howitworks() {
 	return (

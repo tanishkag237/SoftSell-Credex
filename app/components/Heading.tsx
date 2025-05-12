@@ -1,5 +1,5 @@
 import React from "react";
-import { Cover } from "@/components/ui/cover";
+import { Cover } from "@/app/components/ui/cover";
 
 export function Heading() {
   return (

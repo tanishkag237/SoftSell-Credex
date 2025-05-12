@@ -17,19 +17,19 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
         <a
-            href="#learn-more"
+            href="#contact-us"
             className="border-2 border-blue-300 hover:text-blue-600 dark:hover:text-blue-700 text-blue-200 dark:text-blue-400 dark:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-200 font-medium py-3 px-6 rounded-lg transition"
           >
             Get a Quote
           </a>
           <a
-            href="#learn-more"
+            href="#contact-us"
             className="border-2 border-blue-300 hover:text-blue-600 dark:hover:text-blue-700 text-blue-200 dark:text-blue-400 dark:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-200 font-medium py-3 px-6 rounded-lg transition"
           >
            Sell My Licenses
           </a>
           <a
-            href="#"
+            href="#contact-us"
             className="border-2 border-blue-300 hover:text-blue-600 dark:hover:text-blue-700 text-blue-200 dark:text-blue-400 dark:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-200 font-medium py-3 px-6 rounded-lg transition"
           >
             Request Valuation
