@@ -21,19 +21,39 @@ export function ModeToggle() {
         <Shell size={40} />{" "}
         <span className="text-3xl font-bold"> SoftSell</span>
       </div>
-      <a href="#how-it-works" className="font-semibold hover:underline">
-        <h2>How it works</h2>
-      </a>
+      <h2>
+        <a
+          href="#how-it-works"
+          className="font-semibold hover:underline text-sm sm:text-base"
+        >
+          How it works!
+        </a>
+      </h2>
 
-      <a href="#why-us" className="font-semibold hover:underline">
-        <h2>Why Us</h2>
-      </a>
-      <a href="#testimonials" className="font-semibold hover:underline">
-        <h2>Testimonials</h2>
-      </a>
-      <a href="#contact-us" className="font-semibold hover:underline">
-        <h2>Contact Us</h2>
-      </a>
+      <h2>
+        <a
+          href="#why-us"
+          className="font-semibold hover:underline text-sm sm:text-base"
+        >
+          Why Us
+        </a>
+      </h2>
+      <h2>
+        <a
+          href="#testimonials"
+          className="font-semibold hover:underline text-sm sm:text-base"
+        >
+          Testimonials
+        </a>
+      </h2>
+      <h2>
+        <a
+          href="#contact-us"
+          className="font-semibold hover:underline text-sm sm:text-base"
+        >
+          Contact Us
+        </a>
+      </h2>
 
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
