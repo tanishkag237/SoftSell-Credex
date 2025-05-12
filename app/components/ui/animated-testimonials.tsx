@@ -2,6 +2,7 @@
 
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "motion/react";
+import Image from "next/image";
 
 import { useEffect, useState } from "react";
 
@@ -47,7 +48,6 @@ export const AnimatedTestimonials = ({
   return (
     <div className="mx-auto max-w-7xl px-4 py-20 font-sans antialiased md:max-w-5xl md:px-8 lg:px-12">
       <div className="relative grid grid-cols-1 gap-20 md:grid-cols-2">
-        {/* Image Section - Enlarged Image */}
         <div className="relative h-[200px] w-full md:h-[400px]">
           <AnimatePresence>
             {testimonials.map((testimonial, index) => (
@@ -94,7 +94,6 @@ export const AnimatedTestimonials = ({
           </AnimatePresence>
         </div>
 
-        {/* Text Section - Content aligned to the left and bolded */}
         <div className="flex flex-col justify-between py-4 md:pl-10">
           <motion.div
             key={active}

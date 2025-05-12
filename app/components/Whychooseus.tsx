@@ -2,6 +2,7 @@
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import { Cover } from "./ui/cover";
+import Image from "next/image";
 
 
 
@@ -60,12 +61,13 @@ const content = [
       "Why wait to get paid? Once your license is approved, we initiate secure payments directly to your bank account—often within 24 hours. No long processing times, no hidden deductions. Just fast, reliable payouts for your unused assets.",
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-         <img
+         <Image
           src="/pay.webp"
           width={300}
           height={300}
           className="h-full w-full object-cover"
-          alt="linear board demo"
+          alt="payment"
+          
         />
       </div>
     ),

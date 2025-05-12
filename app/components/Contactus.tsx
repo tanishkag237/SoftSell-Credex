@@ -50,9 +50,9 @@ export function ContactUs() {
     
       {/* Left Content */}
       <div className="text-black max-w-md space-y-6 bg-white p-5 rounded-2xl h-[28rem]">
-        <h2 className="text-4xl font-bold">Let's Connect</h2>
+        <h2 className="text-4xl font-bold">Let&apos;s Connect</h2>
         <p className="text-lg">
-          Have a question, proposal, or just want to say hello? Fill out the form and we'll get back to you as soon as possible.
+          Have a question, proposal, or just want to say hello? Fill out the form and we&apos;ll get back to you as soon as possible.
         </p>
         <ul className="space-y-2 text-base">
           <li>📧 Email: contact@softsell.com</li>
@@ -101,7 +101,7 @@ export function ContactUs() {
                 <Label htmlFor="license">License</Label>
                 <Select
                   value={license}
-                  onValueChange={(value) => setLicense(value)} // Update this line
+                  onValueChange={(value) => setLicense(value)}
                 >
                   <SelectTrigger id="license">
                     <SelectValue className="placeholder" placeholder="Select license type" />
