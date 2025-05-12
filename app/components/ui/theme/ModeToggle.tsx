@@ -19,7 +19,7 @@ export function ModeToggle() {
     <div className="w-full flex justify-between items-center p-1">
       <div className="flex">
         <Shell size={40} />{" "}
-        <span className="text-3xl font-bold"> SoftSell</span>
+       <a href="#hero"> <span className="text-3xl font-bold"> SoftSell</span></a>
       </div>
       <h2>
         <a

@@ -2,12 +2,13 @@
 
 export default function Hero() {
   return (
+    <div id="hero">
     <section className="relative w-full min-h-screen flex items-center justify-center text-center px-6 py-16 bg-cover bg-center transition-colors duration-300"
       style={{ backgroundImage: "url('/img1.png')" }} 
     >
       <div className="absolute inset-0 bg-white/10 dark:bg-gray-900/40 backdrop-blur-xs" />
 
-      {/* Content */}
+  
       <div className="relative z-10 max-w-3xl text-blue-100 dark:text-blue-200">
         <h1 className="text-4xl md:text-6xl font-bold">
         Unlock the Value of Unused Software with <span className="text-blue-300 dark:text-blue-400">SoftSell</span>
@@ -38,5 +39,6 @@ export default function Hero() {
         </div>
       </div>
     </section>
+    </div>
   )
 }
